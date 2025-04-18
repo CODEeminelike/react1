@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.navbar-dark {
+  background-color: #000 !important;
+}
+/* Giới hạn width chính giữa */
+.main-content-wrapper {
+  padding: 0;
+}
+
+.content-inner {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .content-inner {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
